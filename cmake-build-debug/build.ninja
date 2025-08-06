@@ -55,12 +55,6 @@ build CMakeFiles/TeachDSA.dir/main.cpp.o: CXX_COMPILER__TeachDSA_unscanned_Debug
   OBJECT_DIR = CMakeFiles/TeachDSA.dir
   OBJECT_FILE_DIR = CMakeFiles/TeachDSA.dir
 
-build CMakeFiles/TeachDSA.dir/Linked_Lists/linked.cpp.o: CXX_COMPILER__TeachDSA_unscanned_Debug /Users/allannguginganga./CLionProjects/TeachDSA/Linked$ Lists/linked.cpp || cmake_object_order_depends_target_TeachDSA
-  DEP_FILE = CMakeFiles/TeachDSA.dir/Linked_Lists/linked.cpp.o.d
-  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk -fcolor-diagnostics
-  OBJECT_DIR = CMakeFiles/TeachDSA.dir
-  OBJECT_FILE_DIR = CMakeFiles/TeachDSA.dir/Linked_Lists
-
 
 # =============================================================================
 # Link build statements for EXECUTABLE target TeachDSA
@@ -69,13 +63,75 @@ build CMakeFiles/TeachDSA.dir/Linked_Lists/linked.cpp.o: CXX_COMPILER__TeachDSA_
 #############################################
 # Link the executable TeachDSA
 
-build TeachDSA: CXX_EXECUTABLE_LINKER__TeachDSA_Debug CMakeFiles/TeachDSA.dir/main.cpp.o CMakeFiles/TeachDSA.dir/Linked_Lists/linked.cpp.o
+build TeachDSA: CXX_EXECUTABLE_LINKER__TeachDSA_Debug CMakeFiles/TeachDSA.dir/main.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk
   OBJECT_DIR = CMakeFiles/TeachDSA.dir
   POST_BUILD = :
   PRE_LINK = :
   TARGET_FILE = TeachDSA
   TARGET_PDB = TeachDSA.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target linkedlists
+
+
+#############################################
+# Order-only phony target for linkedlists
+
+build cmake_object_order_depends_target_linkedlists: phony || .
+
+build CMakeFiles/linkedlists.dir/LinkedLists/main.cpp.o: CXX_COMPILER__linkedlists_unscanned_Debug /Users/allannguginganga./CLionProjects/TeachDSA/LinkedLists/main.cpp || cmake_object_order_depends_target_linkedlists
+  DEP_FILE = CMakeFiles/linkedlists.dir/LinkedLists/main.cpp.o.d
+  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/linkedlists.dir
+  OBJECT_FILE_DIR = CMakeFiles/linkedlists.dir/LinkedLists
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target linkedlists
+
+
+#############################################
+# Link the executable linkedlists
+
+build linkedlists: CXX_EXECUTABLE_LINKER__linkedlists_Debug CMakeFiles/linkedlists.dir/LinkedLists/main.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk
+  OBJECT_DIR = CMakeFiles/linkedlists.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = linkedlists
+  TARGET_PDB = linkedlists.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target stacks
+
+
+#############################################
+# Order-only phony target for stacks
+
+build cmake_object_order_depends_target_stacks: phony || .
+
+build CMakeFiles/stacks.dir/Stacks/StacksUsingArrays.cpp.o: CXX_COMPILER__stacks_unscanned_Debug /Users/allannguginganga./CLionProjects/TeachDSA/Stacks/StacksUsingArrays.cpp || cmake_object_order_depends_target_stacks
+  DEP_FILE = CMakeFiles/stacks.dir/Stacks/StacksUsingArrays.cpp.o.d
+  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/stacks.dir
+  OBJECT_FILE_DIR = CMakeFiles/stacks.dir/Stacks
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target stacks
+
+
+#############################################
+# Link the executable stacks
+
+build stacks: CXX_EXECUTABLE_LINKER__stacks_Debug CMakeFiles/stacks.dir/Stacks/StacksUsingArrays.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk
+  OBJECT_DIR = CMakeFiles/stacks.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = stacks
+  TARGET_PDB = stacks.dbg
 
 
 #############################################
@@ -111,7 +167,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/allannguginganga./CLionProjects/TeachDSA/cmake-build-debug
 
-build all: phony TeachDSA
+build all: phony TeachDSA linkedlists stacks
 
 # =============================================================================
 # Built-in targets

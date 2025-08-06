@@ -15,7 +15,9 @@
 					"source" : ".",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1,
+						2
 					]
 				}
 			],
@@ -30,7 +32,9 @@
 					"name" : "TeachDSA",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1,
+						2
 					]
 				}
 			],
@@ -39,8 +43,22 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "TeachDSA::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-TeachDSA-Debug-64d37cc7d258cae5c914.json",
+					"jsonFile" : "target-TeachDSA-Debug-a1fd79065d71678a38ba.json",
 					"name" : "TeachDSA",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "linkedlists::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-linkedlists-Debug-1996ff451ae8edc28b2e.json",
+					"name" : "linkedlists",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "stacks::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-stacks-Debug-c03677e8671e0d878145.json",
+					"name" : "stacks",
 					"projectIndex" : 0
 				}
 			]

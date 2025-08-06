@@ -1,3 +1,5 @@
 /Users/allannguginganga./CLionProjects/TeachDSA/cmake-build-debug/CMakeFiles/TeachDSA.dir
+/Users/allannguginganga./CLionProjects/TeachDSA/cmake-build-debug/CMakeFiles/linkedlists.dir
+/Users/allannguginganga./CLionProjects/TeachDSA/cmake-build-debug/CMakeFiles/stacks.dir
 /Users/allannguginganga./CLionProjects/TeachDSA/cmake-build-debug/CMakeFiles/edit_cache.dir
 /Users/allannguginganga./CLionProjects/TeachDSA/cmake-build-debug/CMakeFiles/rebuild_cache.dir
