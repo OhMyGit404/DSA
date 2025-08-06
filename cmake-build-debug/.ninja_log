@@ -1,5 +1,9 @@
 # ninja log v6
-1	1124	1754495540005392844	CMakeFiles/TeachDSA.dir/main.cpp.o	746957bf5342d71e
-2	1128	1754495540006706491	CMakeFiles/TeachDSA.dir/Linked_Lists/linked.cpp.o	38786f5b308cbaa0
-2	1292	1754496220474529325	CMakeFiles/stacks.dir/Stacks/StacksUsingArrays.cpp.o	8b4d652a58846a4c
+3	1017	1754496518630302605	CMakeFiles/Queues.dir/Queues/main.cpp.o	41e13ca5deb05843
+2	1107	1754496559846544538	CMakeFiles/TeachDSA.dir/main.cpp.o	746957bf5342d71e
+2	994	1754496518629260190	CMakeFiles/Queues.dir/Queues/QueuesUsingArrays.cpp.o	4e4dfd193b47cbab
 1292	1435	1754496221764207686	stacks	533b7f8b419252d2
+2	1292	1754496220474529325	CMakeFiles/stacks.dir/Stacks/StacksUsingArrays.cpp.o	8b4d652a58846a4c
+2	1128	1754495540006706491	CMakeFiles/TeachDSA.dir/Linked_Lists/linked.cpp.o	38786f5b308cbaa0
+2	59	1754496680799456686	build.ninja	9c92380fe1b2bf5
+1107	1233	1754496560951484422	TeachDSA	ebdce119582d277a

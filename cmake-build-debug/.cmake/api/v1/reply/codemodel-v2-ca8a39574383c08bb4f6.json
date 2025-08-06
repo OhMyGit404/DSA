@@ -18,7 +18,9 @@
 						0,
 						1,
 						2,
-						3
+						3,
+						4,
+						5
 					]
 				}
 			],
@@ -36,7 +38,9 @@
 						0,
 						1,
 						2,
-						3
+						3,
+						4,
+						5
 					]
 				}
 			],
@@ -68,6 +72,20 @@
 					"id" : "stacks::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-stacks-Debug-c03677e8671e0d878145.json",
 					"name" : "stacks",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "stdQueues::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-stdQueues-Debug-6d00902e7c2acb50d86d.json",
+					"name" : "stdQueues",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "stdStacks::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-stdStacks-Debug-82de1f1d5e215756ec9c.json",
+					"name" : "stdStacks",
 					"projectIndex" : 0
 				}
 			]
