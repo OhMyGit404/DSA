@@ -133,6 +133,37 @@ build stacks: CXX_EXECUTABLE_LINKER__stacks_Debug CMakeFiles/stacks.dir/Stacks/S
   TARGET_FILE = stacks
   TARGET_PDB = stacks.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target Queues
+
+
+#############################################
+# Order-only phony target for Queues
+
+build cmake_object_order_depends_target_Queues: phony || .
+
+build CMakeFiles/Queues.dir/Queues/QueuesUsingArrays.cpp.o: CXX_COMPILER__Queues_unscanned_Debug /Users/allannguginganga./CLionProjects/TeachDSA/Queues/QueuesUsingArrays.cpp || cmake_object_order_depends_target_Queues
+  DEP_FILE = CMakeFiles/Queues.dir/Queues/QueuesUsingArrays.cpp.o.d
+  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/Queues.dir
+  OBJECT_FILE_DIR = CMakeFiles/Queues.dir/Queues
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Queues
+
+
+#############################################
+# Link the executable Queues
+
+build Queues: CXX_EXECUTABLE_LINKER__Queues_Debug CMakeFiles/Queues.dir/Queues/QueuesUsingArrays.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk
+  OBJECT_DIR = CMakeFiles/Queues.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = Queues
+  TARGET_PDB = Queues.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -167,7 +198,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/allannguginganga./CLionProjects/TeachDSA/cmake-build-debug
 
-build all: phony TeachDSA linkedlists stacks
+build all: phony TeachDSA linkedlists stacks Queues
 
 # =============================================================================
 # Built-in targets

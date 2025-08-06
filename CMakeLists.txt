@@ -9,3 +9,4 @@ add_executable(TeachDSA main.cpp
 
 add_executable(linkedlists LinkedLists/main.cpp LinkedLists/main.h)
 add_executable(stacks Stacks/StacksUsingArrays.cpp Stacks/StacksUsingArrays.h)
+add_executable(Queues Queues/QueuesUsingArrays.cpp Queues/QueuesUsingArrays.h)
