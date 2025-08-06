@@ -73,24 +73,37 @@ void display() {
     }
     cout << endl;  // Print a newline at the end
 }
-
 int main() {
-    struct Node* head = NULL;  // Initialize an empty linked list
-    // Inserting elements into the linked list
-    insert(6);
-    insert(5);
-    insert(4);
+    // Insert nodes at the beginning
     insert(3);
-    insert(2);
-    insert(1);
+    cout << "After inserting 3 at the beginning: ";
+    display();
 
-    cout << "Initial list: ";
-    display();  // Initially, the list is empty
+    insert(1);
+    cout << "After inserting 1 at the beginning: ";
+    display();
 
     insert(7);
-    cout << "List after insertion at the beginning: ";
-    display();  // Display the linked list after inserting at the beginning
+    cout << "After inserting 7 at the beginning: ";
+    display();
+
+    insert(2);
+    cout << "After inserting 2 at the beginning: ";
+    display();
+
+    insert(9);
+    cout << "After inserting 9 at the beginning: ";
+    display();
+
+    // Insert a node at a specific position
+    insertAtSpecificPosition(5, 2); // Insert 5 at position 2
+    cout << "After inserting 5 at position 2: ";
+    display();
+
+    // Insert a node at the end
+    insertAtEnd(10);
+    cout << "After inserting 10 at the end: ";
+    display();
 
     return 0;
 }
-
